@@ -3,6 +3,6 @@ pandas
 numpy
 bcrypt
 google-generativeai
-catboost
+catboost==1.2
 xgboost
 scikit-learn
