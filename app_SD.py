@@ -108,7 +108,7 @@ def main():
             return
         
         st.title("🔬 Chronic Kidney Disease Prediction")
-        st.image("ckdimg.png", use_column_width=True)
+        st.image("ckdimg.png",use_container_width=True)
         
         # ✅ User Inputs
 
