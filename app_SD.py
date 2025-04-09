@@ -129,7 +129,7 @@ def main():
     with right:
         if choice == "Home" and st.session_state.authenticated:
             st.title("🔬 Chronic Kidney Disease Prediction")
-            st.image("ckdimg.png", use_column_width=True)
+            st.image("ckdimg.png", use_container_width=True)
 
             col1, col2 = st.columns(2)
             with col1:
